@@ -3,7 +3,7 @@ version: '3.8'
 services:
   wallet-service:
     build:
-      context: .  # Текущая директория (корень проекта)
+      context: .
       dockerfile: src/main/docker/Dockerfile
     ports:
       - "8080:8080"
